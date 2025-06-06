@@ -15,7 +15,7 @@ pipeline {
                 sonar-scanner \
                 -Dsonar.projectKey=fred_TP_Frontend_deployment_cda \
                 -Dsonar.sources=. \
-                -Dsonar.host.url=https://669b-212-114-26-208.ngrok-free.app \
+                -Dsonar.host.url=https://2a26-212-114-26-208.ngrok-free.app \
                 -Dsonar.token=${SonarToken}
                 """
             }
